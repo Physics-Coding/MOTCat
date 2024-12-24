@@ -68,6 +68,7 @@ CUDA_VISIBLE_DEVICES=<DEVICE_ID> python main.py \
 --data_root_dir <DATA_ROOT_DIR> \
 --split_dir <SPLITS_FOR_CANCER_TYPE> \
 --model_type motcat \
+--use_micro_batch \
 --bs_micro 256 \
 --ot_impl pot-uot-l2 \
 --ot_reg <OT_ENTROPIC_REGULARIZATION> --ot_tau 0.5 \
